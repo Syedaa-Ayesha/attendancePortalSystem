@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="personal-blog" class="pro-data">
+        <div class="info">
+            <div id="logo">Student Attendance Portal</div>
+            <a href="./index.html"><input type="button" value="Student Portal" id="StudentPortal-in-signup-page"></a>
+
+            <a href="./signup.html"><input type="button" value="Logout" id="logout-in-signup-page"></a>
+
+
+        </div>
+
+    </header>
+    <div class="wrapper data-wrapper">
+        <div class="signup">
+            <form id="form" action="">
+                <div id="dataEntryForm" class="">
+                    <h2>Add Data</h2>
+                    <input type="number" id="rollNo" placeholder="Enter Roll No. For Edit" class="form-control">
+                    <select name="" id="classTimings" required class="form-control"><br>
+                        <option disabled selected value="">Select class timings</option>
+                        <option value="9:00am to 12:00am">9:00am to 12:00am</option>
+                        <option value="4:00pm to 5:30pm">9:00am to 12:00am</option>
+                        <option value="7:00pm to 9:00pm">9:00am to 12:00am</option>
+                    </select>
+                    <select name="" id="schedule" required class="form-control"><br>
+                        <option disabled selected value="">Select schedule</option>
+                        <option value="Weekend">Weekend</option>
+                        <option value="Weekdays">Week Days</option>
+                    </select>
+                    <select name="" id="teacherName" required class="form-control"><br>
+                        <option disabled selected value="">Select a teacher name</option>
+                        <option value="Miss Hina">Miss Hina</option>
+                        <option value="Miss Iqra">Miss Iqra</option>
+                        <option value="Sir Inzamam">Sir Inzamam</option>
+                        <option value="Sir Ishaq">Sir Ishaq</option>
+                    </select>
+                    <select name="" id="sectionName" required class="form-control"><br>
+                        <option disabled selected value="">Select a section name</option>
+                        <option value="Section-A">Section-A</option>
+                        <option value="Section-B">Section-B</option>
+                        <option value="Section-C">Section-C</option>
+                    </select>
+                    <select name="" id="courseName" required class="form-control"><br>
+                        <option disabled selected value="">Select course name</option>
+                        <option value="Web And App Development">Web Development</option>
+                        <option value="AI Chatbot">AI Chatbot</option>
+                        <option value="Graphic Designing">Graphic Designing</option>
+                        <option value="Video Editing">Video Editing</option>
+                    </select>
+                    <select name="" id="batchNumber" required class="form-control"><br>
+                        <option disabled selected value="">Select batch number</option>
+                        <option value="Batch-07">Batch-07</option>
+                        <option value="Batch-08">Batch-08</option>
+                        <option value="Batch-09">Batch-09</option>
+                    </select>
+                    <button id="addDataButton" class="Addbtn">Add Data</button><br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./selection.js"></script>
+</body>
+
+</html>

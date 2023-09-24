@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Mark</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="personal-blog" class="pro-data">
+        <div class="info">
+            <div id="logo">Student Attendance Portal</div>
+            <a href="./signup.html"><input type="button" value="SignUp" id="SignUp-in-showdata-page"></a>
+            <a href="./enroment.html"><input type="button" value="Update your data" id="Enrolment-in-attendance-page"></a>
+        </div>
+        <div class="dashboard">
+            <h2 id="d-heading" class="back">Mark Attendance</h2>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="login attendance">
+            <form id="form" action="">
+                <br>  
+                <!-- For rollNo -->
+                <input type="number" id="rollNo" placeholder="Enter Roll No...." name="rollNo" required class="form-control"><br>
+                <!-- For mark Attendance -->
+                <select id="select-Mark" required class="form-control">
+                    <option disabled selected value="">Mark An Attendance</option>
+                    <option value="present">present</option>
+                    <option value="absent">absent</option>
+                    <option value="leave">leave</option>
+                </select>
+                <br>
+               
+                <!--Mark an Attendance button -->
+                <input type="button" class="btn" id="markAttendanceButton" value="Mark">
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./mark.js"></script>
+</body>
+
+</html>

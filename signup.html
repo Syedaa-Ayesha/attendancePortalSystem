@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+      </style>
+</head>
+<header id="personal-blog" class="pro-data">
+    <div class="info">
+        <div id="logo">Student Attendance Portal</div>
+         <a href="./login.html"><input type="button" value="Login" id="login-in-signup-page"></a>
+         <a href="./adminlogin.html"><input type="button" value="Admin" id="Admin-in-signup-page"></a>
+        
+    </div>
+    <div class="dashboard">
+        <h2 id="d-heading" class="back">Signup</h2>
+    </div>
+</header>
+<body>
+     <div class="wrapper">
+        <div class="signup">
+            <form id="form" action="">
+                <!-- For First Name -->
+                    <input type="text" class="form-control" id="username"  placeholder="Enter Name" required="required">
+                <br>
+                <!-- For Email -->
+                    <input type="email" class="form-control" id="email" placeholder="Email" required="required"> <br>
+                <!-- For Password -->
+                    <input type="password" class="form-control" autocomplete="off" id="password" placeholder="Password" required="required"><br>
+                <!-- For Repeat Password -->    
+                    <input type="password" class="form-control" autocomplete="off" id="rep-password" placeholder="Repeat  Password"required="required"><br>
+                <!-- For SignUp button -->
+                <input type="button" class="btn" id="signupButton" value="Signup">
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./signup.js"></script>
+</body>
+</html>

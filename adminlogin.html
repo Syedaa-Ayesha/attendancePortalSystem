@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header id="personal-blog" class="pro-data">
+    <div class="info">
+        <div id="logo">Student Attendance Portal</div>
+    </div>
+    <div class="dashboard">
+        <h2 id="d-heading" class="back">Admin Login</h2>
+    </div>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="login">
+            <form id="form" action="">
+
+                <!-- For Email -->
+                <input type="email" class="form-control" id="login-email"
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" placeholder="Email" required="required">
+                <!-- For Password -->
+                <input type="password" class="form-control" id="login-password" placeholder="Password"
+                    autocomplete="off" required="required">
+
+                <!-- For SignUp button -->
+                <input type="button" class="btn" id="loginButton" value="Login">
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./adminlogin.js"></script>
+</body>
+
+</html>

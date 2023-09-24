@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    height: 84vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9ea;
+}
+
+.signup,
+.login {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 80px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#form .form-control {
+    display: block;
+    margin: 3px 0;
+    padding: 5px 5px;
+    min-width: 240px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    color: #808080;
+}
+
+#form input:focus {
+    border: 2px solid blueviolet;
+}
+
+#form input[type=button] {
+    color: #f8f9fa;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    background-color: blueviolet;
+    top: 0;
+    left: 50px;
+    margin-top: 10px;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#personal-blog .info {
+    height: 30px;
+    width: 100%;
+    padding: 0 100px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pro-data .info #logo {
+    /* width: 300px; */
+    color: #f8f9fa;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.name-lg-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#personal-blog .info #name,
+#logIn-btn,
+#logout-btn {
+    width: 120px;
+    background-color: blueviolet;
+    color: #f8f9fa;
+    border: none;
+    cursor: pointer;
+}
+
+#personal-blog .dashboard {
+    background-color: white;
+    padding: 18px 100px;
+}
+
+#personal-blog .dashboard .heading {
+    text-transform: capitalize;
+    font-size: 32px;
+    /* color: #82b0c4; */
+    /* background: ; */
+
+}
+
+.dashboard #d-heading {
+    text-transform: capitalize;
+    font-size: 32px;
+    /* color: blu;  */
+}
+
+.data-wrapper {
+    height: 100vh;
+}
+
+input[type=button] {
+    background-color: blueviolet;
+    border: none;
+    color: #ffffff;
+}
+
+.show-wrapper {
+    height: 82vh;
+}
+
+.reada-btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: relative;
+    top: 0;
+    left: 60px;
+    background-color: blueviolet;
+    border: none;
+    color: #ffffff;
+}
+
+#enrol {
+    height: 70px;
+}
+
+.Addbtn {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: relative;
+    top: 0;
+    left: 60px;
+    background-color: blueviolet;
+    border: none;
+    color: #ffffff;
+}
+
+.dataTable {
+    font-size: 12px;
+    display: flex;
+    flex: row;
+    align-items: start;
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+
+.dataTable div {
+   
+    height: 40px;
+    width: 100px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.dataTable #cnic {
+    width: 80px;
+}
+.dataTable #cont-num{
+    width: 80px;
+}
+.content {
+    border: 1px solid rgb(230, 222, 237);
+    border-left: none;
+    border-right:none ;
+    border-bottom: none;
+}
+
+.dataTable #batch-name {
+    width: 105px;
+    
+}
+
+.dataTable #cour-name {
+    width: 145px;
+    text-align: center;
+}
+
+.dataTable #schedule {
+    width: 65px;
+}
+
+.dataTable #rollno {
+    width: 60px;
+}
+
+.dataTable #cl-time {
+    text-align: center;
+    width: 80px;
+}
+.dataTable #f-name{
+    width: 160px;
+}
+.studentData {
+    padding: 20px;
+}
+
+.tableheading div{
+    font-weight: 700;
+    /* border: 1px solid; */
+}
+
+    
+@media screen and (max-width: 600px){
+    .tableheading{
+        /* flex-direction: column; */
+    }
+    .dataTable{
+         /* flex-direction: column; */
+    }
+
+}

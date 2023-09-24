@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Data Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="personal-blog" class="pro-data">
+        <div class="info">
+            <div id="logo">Student Attendance Portal</div>
+            <a href="./signup.html"><input type="button" value="SignUp" id="SignUp-in-showdata-page"></a>
+            <a href="./mark.html"><input type="button" value="Attendance" id="Attendance-in-signup-page"></a>
+            <a href="./adminlogin.html"><input type="button" value="Admin" id="Admin-in-signup-page"></a>
+        </div>
+        <div class="dashboard">
+            <h2 id="d-heading" class="back">All Students Data</h2>
+        </div>
+    </header>
+    <div class="wrapper data-wrapper show-wrapper">
+        <div class="signup studentData">
+            <section id="myblog ">
+                <div class="publish-content blog " id="publish-Content">
+
+                    <div class="dataTable tableheading">
+                        <div id="name">User Name</div>
+                        <div id="f-name">Father Name</div>
+                        <div id="rollno">Roll no.</div>
+                        <div id="cour-name">Course Name</div>
+                        <div>Instructor</div>
+                        <div>Section</div>
+                        <div id="schedule">Schedule</div>
+                        <div id="batch-name">Batch Name</div>
+                        <div id="cl-time">Class Timing</div>
+                        <div id="cont-num">Attendance</div>
+                        <div id="cnic">Timing</div>
+
+
+                    </div>
+                    <div id="published-blog">
+
+                        <div class="publisher-info">
+
+                            <div class="content">
+                                <div class="dataTable">
+                                    <div id="name">Not Update</div>
+                                    <div id="f-name">Not Update</div>
+                                    <div id="batch-name">Not Update</div>
+                                    <div id="rollno">Not Update</div>
+                                    <div id="cont-num">Not Update</div>
+                                    <div id="cl-time">Not Update</div>
+                                    <div id="schedule">Not Update</div>
+                                    <div >Not Update</div>
+                                    <div>Not Update</div>
+                                    <div id="cnic">Not Update</div>
+                                    <div id="cour-name">Not Update</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./showdata.js"></script>
+</body>
+
+</html>
